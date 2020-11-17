@@ -9,10 +9,11 @@ myList.splice(2,1, ["Orange Juice", 17]);
 const printItems = () =>{
     myList.map((item)=>{
         const key = item[0];
-   
-console.log({[key]:item[1]})
+
+console.log({[key]:item[1]} )
     }
     )
+    console.log(newArray );
 }
 
 printItems();
